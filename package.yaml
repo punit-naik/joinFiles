@@ -50,4 +50,7 @@ tests:
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
+    - test-framework
+    - test-framework-hunit
+    - HUnit
     - joinFiles
