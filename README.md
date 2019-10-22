@@ -21,7 +21,7 @@ The output will be written to a JSON file named `authors_with_articles.json` in 
 **NOTE**: 
 * First argument is the path to the authors json file
 * Second argument is the path to the articles json file
-* Remaining two arguments can be passed as `filter=first5` or `filter=ratingGreater3`
+* Remaining two arguments can be passed as `filter=first5` or `filter=ratingGreater3` which limits the articles per user to 5 and only fetches articles which have a rating greater than 3 respectively. 
 
 ## Test
 
